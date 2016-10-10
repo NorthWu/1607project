@@ -1,0 +1,213 @@
+            *{  
+		     	padding: 0;
+		     	margin: 0;
+		     }
+		     ul li{
+		     	list-style: none;
+		     }
+		     
+		     /*header*/
+		     
+			.w-header{
+				width: auto;
+				height: auto;
+			}
+			.w-header-top{
+				width: 100%;
+				height: 70px;
+				background: rgb(240,130,0);
+				position: relative;
+			}
+			.w-header .w-header-top img{
+				position: absolute;
+				top:10px;
+				left: 208px;
+			}
+			.w-header .w-header-top .search{
+				position: absolute;
+				top:20px;
+				left: 950px;				
+			}
+			.w-header-top .search .sb{
+				/*position: absolute;
+				top:20px;
+				left: 950px;*/
+				height: 28px;
+				width: 165px;
+				line-height: 28px;
+				font-size: 12px;
+				background: url("http://www.jxhsh.com.cn/s/images/sb.png");
+				padding-left: 8px;
+				padding-right: 8px;
+				border: 0px;
+			}
+			.w-header-top .search .sc{
+				position: absolute;
+				
+				width:23px;
+				height: 28px;
+				background: url("http://www.jxhsh.com.cn/s/images/sc.png") no-repeat;
+				/*cursor: pointer;*/
+				
+				
+			}
+			.w-header-top .search input{
+				float: left;
+				border: none;
+			}
+			.w-header-bottom{
+				width: 100%;
+				height: 25px;
+				background: #A24100;
+				position: relative;
+			}
+			.w-header-bottom p{
+				color: black;
+				font-size: 12px;
+				position: absolute;
+				top: 5px;
+				left: 950px;
+			}
+			
+			/*hidden*/
+			
+			.w-hidden{
+				width: 100%;
+				height: 485px;
+				background: #341000;
+				display: none;
+			}
+			.w-hidden-center{
+				width: 72%;
+				height: 100%;
+				margin: 0 auto;
+				/*background: greenyellow;*/
+				position: relative; 
+			}
+			.w-hidden-title{
+				width: 100%;
+				height: 70px;
+			}
+			.w-hidden-title h2{
+				line-height: 70px;
+				color:rgb(240,130,0);
+			}
+			.w-hidden-title span:nth-of-type(2){
+				background: url("http://www.jxhsh.com.cn/s/images/more.png");
+				width: 107px;
+				height: 28px;
+				padding-left: 22px;
+				position: absolute;
+				top:20px;
+				right: 200px;
+								
+			}
+			.w-hidden-title span a{
+				text-decoration:none;
+				color:white;
+				line-height: 28px;
+				font-size: 14px;
+			}
+			.w-hidden-title span:nth-of-type(1){
+				background: url("http://www.jxhsh.com.cn/s/images/fanhui.png") no-repeat;
+				width: 65px;
+				height: 28px;
+				background-position: 35px 0px;
+				position: absolute;
+				top:20px;
+				right: 0px;
+			}
+			.w-hidden-center-img{
+				width: 960px;
+				overflow: hidden;
+				height: auto;
+			}
+			
+			/*.w-hidden-center-img ul{
+				width: 970px;
+				height: 378px;
+				
+			}*/
+			.w-hidden-center-img ul li{
+				width: 184px;
+				height: auto;
+				display: inline;
+				margin-right: 10px;
+				cursor: pointer;
+			}
+			.w-hidden-center-img ul li a{
+				display: inline-block;
+				margin-bottom: 10px;
+				position: relative;
+				width: 184px;
+				height: 184px;
+			}
+			.w-hidden-center-img img{
+				width: 182px;
+				height: 182px;
+				border:1px solid #965E1B;
+				border-radius: 2px;								
+			}
+			.w-hidden-center-img ul li p{
+				color:white;
+				width: 144px;
+				height: 37px;
+				text-align: center;
+				line-height: 37px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				padding:139px 20px 8px;
+				/*background: rgba(0,0,0,0.5);*/
+				/*display: none;*/
+				opacity: 0;
+				background: url(../img/product-hover-bg.png) no-repeat;
+				background-position: ;
+			}
+			.w-hidden-center-img ul li p:hover{
+				opacity: 1;				
+			}
+			
+			/*w-nav导航*/
+			
+            .w-nav{
+           	    width: 100%;
+           	    height: 75px;           	     
+            }
+            .w-nav ul{
+            	width:72%;
+            	height: 100%;
+            	margin: 0 auto;
+            	background: white;
+            	padding-left: 150px;
+            }
+            .w-nav ul li{
+            	float: left;
+            	width: 124px;
+            	height: 75px;
+            }
+            .w-nav ul li a{
+            	display: block;
+            	width: 100%;
+            	height: 100%;
+            	color:#621313;
+            	font-size: 16px;
+            	line-height: 75px;
+            	text-decoration: none;
+            	text-align: center;
+            	font-family: "microsoft yahei";
+            	position: relative;
+            }
+            .w-nav ul li:hover{
+            	background: #A24100;
+            }
+            .active::before{
+            	content: "";
+            	width: 21px;
+            	height: 11px;
+            	background: url(../img/nav-active.png) no-repeat;
+            	position: absolute;
+            	top:0;
+            	left: 50px;
+            }
+            
