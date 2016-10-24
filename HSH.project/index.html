@@ -5,6 +5,9 @@
 		<title>煌上煌</title>
 		<style type="text/css"></style>
 		<link rel="stylesheet" href="css/hsh-page1.css">
+		<link rel="stylesheet" href="css/swiper.min.css"/>
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/hsh-page1.js" ></script>
 	</head>
 	<body>
 	<div class="w-header">
@@ -112,6 +115,136 @@
 		
 		
 	</div>
+	
+	<div class="w-content">
+		<div class="w-content-center">
+			<div class="w-page1-lunbo">
+				<div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/l5.png"></div>
+                        <div class="swiper-slide"><img src="img/l3.jpg"></div>
+                        <div class="swiper-slide"><img src="img/l2.jpg"></div>
+                        <div class="swiper-slide"><img src="img/l6.jpg"></div>
+                        <div class="swiper-slide"><img src="img/l1.jpg"></div>
+                        <div class="swiper-slide"><img src="img/l4.jpg"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+			</div> 
+			<div class="w-content-right">
+				<div class="w-right1">
+					<a href="#" id="w-a1"><img src="img/r-04.jpg"></a>
+					<a href="#" class="click click-btn" id="w-a">open</a>
+					<div></div>
+					<h3><a href="#">煌上煌精品系列</a></h3>
+				</div>
+				<div class="w-right2">
+					<a href="#"><img src="img/r-img.jpg"></a>
+				    <div id="poyang">
+				    	<p>
+				    		鄱阳情，煌上煌。这里是煌上煌人精心打造的绿色生态、天然饲养鸭源基地。这里是煌上煌人梦想起飞的地方...
+				    	</p>
+				    </div>
+				</div>
+			</div>
+			
+			<div class="w-conts">
+		        <div class="w-conts-left">
+			        <div class="w-conts-left-1">
+				        <h3>最新活动信息</h3>
+				        <a href="#" id="w-a2"><img src="img/contsleft1.jpg"></a>
+			            <div class="w-conts-left-1-div">
+			            	<p>
+			            		<strong>“</strong>
+			            		&nbsp; 听说，煌上煌出大事啦！南昌人赶紧看看
+			            		<strong>”</strong>
+			            	
+			            	</p>
+			            	<span>关注我们 : </span>
+			            	<a href="http://weibo.com/u/3027531103" id="w-a3">
+			            		<img src="img/sina-img.png" alt="" />
+			            	</a>
+			            </div>
+			        </div>
+			        <div class="w-conts-left-2">
+				        <h3>最新活动信息</h3>
+				        <a href="#" id="w-a4"><img src="img/contsleft2.jpg"></a>
+				        <div class="w-conts-left-2-div">
+                            <h3>红米鸭掌，当红上市</h3>
+                            <p>煌上煌红米鸭掌 / 红米鸭翅当红上市！ 9月30日到10月18日购买，惊喜送不停 </p>
+                        </div>
+			        </div>
+		        </div>
+		        <div class="w-conts-right">
+			        <p>加盟热线</p>
+                    <p><span>400-888-5667</span></p></br>
+                    <p><a href="#"></a></p>
+		        </div>
 		
+	        </div>
+	
+			<div class="w-footer">
+		        <p>
+		    	    <a href="#">联系我们</a>
+		    	    <span>|</span>
+		    	    <a href="#">版权声明</a>
+		    	    <span>|</span>
+		    	    <a href="#">招聘信息</a>
+		        </p> 
+                <p>版权所有 江西煌上煌集团食品股份有限公司&nbsp;&nbsp;&nbsp;&nbsp;赣ICP备09006167号-2</p>
+                <p class="tianmao"><a href="http://delis.tmall.com/">点击进入>>煌上煌食品官方旗舰店</a></p>
+	            <div class="share">
+                    <!-- Baidu Button BEGIN -->
+                    <div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+                    <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+                    <a class="bds_kaixin001" title="分享到开心网" href="#"></a>
+                    <a class="bds_renren" title="分享到人人网" href="#"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+                    <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+                    <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+                </div>
+                <script data="type=tools&amp;uid=802414" id="bdshare_js" type="text/javascript" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=378324"></script>
+                <script id="bdshell_js" type="text/javascript" src="http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=19"></script>
+                <script type="text/javascript">
+                    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+                </script>
+                <!-- Baidu Button END -->
+            </div>
+	    </div>
+		</div>
+	    
+	</div>
+    
+	
+	
 	</body>
+    
+    <script src="js/jquery.js"></script>
+    <script>
+    
+    	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+        
+//      $("#w-a1::before").click(function(){
+//      	$(".w-hidden").css("display","block")
+//      })
+        $("#w-a").click(function(){
+        	$(".w-hidden").slideToggle()
+//      	if($(".w-content").attr("display")==block){
+//      		$("#w-a").addClass("click-open")
+//      	}
+        })
+    </script>
 </html>
